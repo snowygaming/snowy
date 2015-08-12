@@ -1,0 +1,99 @@
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 200px 0;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro-brand {
+    display: table;
+    position: relative;
+}
+
+.intro .float-section {
+    height: 400px;
+    
+}
+
+.intro .float-section-right {
+    position: absolute;
+    z-index: 0;
+    left: 100px;
+    top: 100px;
+    
+}
+
+.intro .float-section-left {
+    position: absolute;
+    z-index: -1;
+    left: -150px;
+    top: -50px;
+}
+
+
+.tera {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.tera-content {
+    padding: 100px 0;
+    background-color: rgba(245,245,245, 1);
+}
+
+.caption-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(245,245,245, 0.5);
+}
+
+.caption-content a:link, a:visited, a:hover, a:active {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.showcase {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.showcase-thumb {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 400px;
+    padding: 0 0;
+    text-align: center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+}

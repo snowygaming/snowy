@@ -1,0 +1,105 @@
+body {
+	font-family: Monospace;
+	color: #000;
+	background-color: #fff;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+
+#canvas {
+	display: block; /* fix necessary to remove space at bottom of canvas */
+
+}
+
+div.canvas-content{
+    position:relative;
+    color: #aaa;
+    text-align: center;
+    padding-top: 0;
+}
+
+
+.dark-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #000;
+    background: url(../img/dark-bg.jpg) no-repeat center center scroll;
+    background-color: #F5F5F5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+}
+.dark {
+    color: #000;
+    background-color: #F5F5F5;
+}
+
+.light-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #000;
+    background: url(../img/light-bg.jpg) no-repeat center center scroll;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+}
+.light {
+    color: #000;
+    background-color: #fff;
+}
+
+.footer a:link, 
+.footer a:visited, 
+.footer a:hover, 
+.footer a:active {
+    color: #A9A9A9;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    
+    clear: both;
+    padding: 20px 0;
+    color: #A9A9A9;
+    bottom:20px;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+span.stretch {
+    display:inline-block;
+    transform:scale(1,2); /* W3C */
+    -webkit-transform:scale(1,2); /* Safari and Chrome */
+    -moz-transform:scale(1,2); /* Firefox */
+    -ms-transform:scale(1,2); /* IE 9 */
+    -o-transform:scale(1,2); /* Opera */
+}
