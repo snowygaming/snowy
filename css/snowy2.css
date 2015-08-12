@@ -4,10 +4,8 @@
     height: auto;
     padding: 200px 0;
     text-align: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background: url(../img/intro-bg.jpg); 
+    background-repeat: repeat-y repeat-x;
 }
 
 .intro-brand {
@@ -22,7 +20,7 @@
 
 .intro .float-section-right {
     position: absolute;
-    z-index: 0;
+    z-index: 2;
     left: 100px;
     top: 100px;
     
@@ -30,7 +28,7 @@
 
 .intro .float-section-left {
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     left: -150px;
     top: -50px;
 }
@@ -40,9 +38,14 @@
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 0 0;
     text-align: center;
     color: #000;
+    background: url(../img/snowy-flat.jpg) no-repeat bottom center scroll; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -51,7 +54,8 @@
 
 .tera-content {
     padding: 100px 0;
-    background-color: rgba(245,245,245, 1);
+    background-color: rgba(0,0,0, 0.5);
+    color: lightgray;
 }
 
 .caption-content {
